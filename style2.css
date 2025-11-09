@@ -11,7 +11,7 @@
 
 body { 
     
-    background-image: url(../assets/lf.jpg);
+    background-image: url(./assets/lf.jpg);
     background-repeat:repeat;
     background-size: cover;
    
