@@ -1,0 +1,101 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.body { 
+    background-color: black;
+
+}
+
+
+#signin{
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url(../../Downloads/_.jpeg);
+    width: 54%;
+    height: 395px;
+    background-position: center;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.main .container{
+    background:transparent;
+    text-align: center;
+    width: 64%;
+    height: 300px;
+    margin-top: 35px;
+    backdrop-filter:blur(10px);
+    border-radius: 50px;
+   
+    
+}
+
+.main .container h3{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.input input{
+    background: transparent ;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 70%;
+    border: 1px solid white;
+}
+.input input::placeholder{
+    color:lightgray;
+
+}
+.buttn{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 2px solid white;
+    margin: 10px;
+    width: 70%;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    
+}
+.remfor{
+    display: flex;
+    justify-content:space-around;
+    font-size: small;
+    color: white;
+    a {
+    color: darkblue;
+}
+}
+.regg{
+    color: white;
+    a {
+        color: darkblue;
+    }
+    font-size: small;
+    margin-top: 10px;
+}

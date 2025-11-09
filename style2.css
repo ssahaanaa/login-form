@@ -1,0 +1,123 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+body { 
+    
+    background-image: url(../../Downloads/lf.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+   
+}
+
+.register{
+    background:transparent;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+   
+   
+}
+
+.box{
+    position: absolute;
+    background:transparent;
+    width: 40%;
+    height: 890px;
+    margin-top: 40px;
+    text-align: center;
+    backdrop-filter:blur(20px);
+    border:1px solid white;
+    border-radius: 50px;
+    
+    h2 {
+         padding: 10px;
+    }
+
+}
+.inputt{
+    text-align: justify;
+    margin-left: 100px;
+    padding: 5px;
+    
+    input {
+    
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    margin: 4px;
+    width: 70%;
+    display:flex;
+    justify-content: flex-end;
+    padding:5px;
+    color: white;
+
+}
+    select{
+        display: block;
+        background: transparent;
+        outline: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 70%;
+        margin: 4px;
+        padding: 5px;
+        
+       
+    }
+    
+    
+    textarea{
+        background: transparent;
+        outline: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 70%;
+        margin: 4px;
+        display: block;
+    }
+    ::placeholder{
+        color: rgba(255, 255, 255, 0.377);
+        
+    }
+    
+}
+.buttn{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 2px solid white;
+    margin: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 50%;
+    width: 100%;
+}
+ input[type="date"]{
+    display: block;
+    width: 280px;
+ }
