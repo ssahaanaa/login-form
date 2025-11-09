@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./assets/peach-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thankyou-container {
+  text-align: center;
+}
+
+.thankyou-card {
+  padding: 24px 32px;
+  border-radius: 16px;
+}
+
+.thankyou-card h1 {
+  color: #3b5998;
+  margin-bottom: 8px;
+}
+
+.thankyou-card p {
+  color: #555;
+  margin-bottom: 16px;
+}
